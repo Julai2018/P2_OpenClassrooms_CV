@@ -20,6 +20,8 @@ footer h3 {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
 }
 footer h4, header h2, article h4, p {
     color: #424242;
@@ -35,4 +37,10 @@ article header {
 footer img {
     display: flex;
     justify-content: center;
+}
+.footerparagraphe {
+    padding: 2em;
+}
+footer h4, p {
+    margin: 0;
 }
