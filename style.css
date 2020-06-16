@@ -25,6 +25,7 @@ footer h3 {
 }
 footer h4, header h2, article h4, p {
     color: #424242;
+    margin: 0;
 }
 #recommandation ul {
     display: flex;
@@ -40,7 +41,30 @@ footer img {
 }
 .footerparagraphe {
     padding: 2em;
+    text-align: justify;
 }
-footer h4, p {
-    margin: 0;
+.footerparagraphe h4 {
+    padding-top: 1em;
+}
+img {
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+#loisirs i {
+    /*border-radius:50%;
+    width:120px;
+    height:120px;  
+    border-color: #424242;*/
+    border: 2px #424242 solid;
+    border-radius: 50%;
+}
+.iconePaddingLittle {
+    padding: 0.1em;
+}
+.iconePaddingMiddle {
+    padding: 0.2em;
 }
