@@ -5,10 +5,13 @@ body {
 }
 footer {
     background-color: #FDD835;
-    width: 30%;
+    width: 20%;
+}
+#loisirs {
+    align-self: flex-end;
 }
 #contenu {
-    width: 70%;
+    width: 80%;
     background-color: white;
 }
 header span, article i {
@@ -35,10 +38,6 @@ article header {
     display: flex;
     justify-content: flex-start;
 }
-footer img {
-    display: flex;
-    justify-content: center;
-}
 .footerparagraphe {
     padding: 2em;
     text-align: justify;
@@ -46,13 +45,25 @@ footer img {
 .footerparagraphe h4 {
     padding-top: 1em;
 }
+footer img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #424242;
+    margin: auto;
+    padding: 3em;
+}
 img {
     overflow: hidden;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+}
+.loisirsicons {
+    display: flex;
+    justify-content: space-around;
 }
 #loisirs i {
     /*border-radius:50%;
@@ -67,4 +78,6 @@ img {
 }
 .iconePaddingMiddle {
     padding: 0.2em;
+    height: 0.8em;
+    margin-bottom: 0.1em;
 }
