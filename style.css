@@ -4,6 +4,7 @@ body {
     background-color: black;
 }
 footer {
+    display: flex;
     background-color: #FDD835;
     width: 20%;
 }
@@ -46,21 +47,25 @@ article header {
     padding-top: 1em;
 }
 footer img {
-    display: flex;
+    /*display: flex;
     justify-content: center;
     align-items: center;
-    border: #424242;
-    margin: auto;
-    padding: 3em;
-}
-img {
-    overflow: hidden;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
+    border: #424242;*/
+    /*padding: 3em;*/
+    /*overflow: hidden;*/
+    border: 2px #424242 solid;
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    margin: 40px 40px 40px 40px;
+
 }
+/*img {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}*/
 .loisirsicons {
     display: flex;
     justify-content: space-around;
@@ -77,7 +82,11 @@ img {
     padding: 0.1em;
 }
 .iconePaddingMiddle {
-    padding: 0.2em;
-    height: 0.8em;
-    margin-bottom: 0.1em;
+    padding: 0.18em;
+    font-size: 3.8em;
+    /*height: 0.8em;
+    margin-bottom: 0.1em;*/
+}
+.moi {
+    flex-grow: 1;
 }
