@@ -4,7 +4,7 @@ body {
     background-color: black;
 }
 footer {
-    display: flex;
+    /*display: flex;*/
     background-color: #FDD835;
     width: 20%;
 }
@@ -87,6 +87,17 @@ footer img {
     /*height: 0.8em;
     margin-bottom: 0.1em;*/
 }
-.moi {
+/*.moi {
     flex-grow: 1;
+}*/
+ul {
+    list-style-type: none;
+}
+.detailArticleDroite {
+    display: flex;
+    margin-left: 2em;
+    
+}
+.detailArticleDroite > p, .detailArticleDroite div {
+    margin-left: 2em;
 }
