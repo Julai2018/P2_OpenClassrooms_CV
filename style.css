@@ -101,3 +101,10 @@ ul {
 .detailArticleDroite > p, .detailArticleDroite div {
     margin-left: 2em;
 }
+.detailArticleRecommandations {
+    display : flex;
+    margin-left: 2em;
+}
+.detailArticleRecommandations article {
+    flex-direction: row;
+}
